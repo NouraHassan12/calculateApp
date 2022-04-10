@@ -25,3 +25,15 @@
   background-color: #f5923e;
   color: white;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .component-button button {
+    background-color: #e0e0e0;
+    border: 0;
+    font-size: 20px;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+    padding: 20px;
+  }
+}
